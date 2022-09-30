@@ -1,0 +1,23 @@
+button {
+  border: none;
+  background-color: rgb(80, 60, 209);
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(61, 43, 184);
+}
+
+.equals {
+  grid-column: 3 / 5 /* start at 4th button and end at 6th one that doesn't actually exist */
+}
+
+.equals:hover {
+  background-color: rgb(185, 3, 3);
+}
+
