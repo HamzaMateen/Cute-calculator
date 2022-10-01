@@ -1,9 +1,11 @@
 import './Wrapper.css';
 
 const Wrapper = ({ children }) => {
-  return <div className="wrapper">
+  return ( 
+  <section className="wrapper">
     {children}
-  </div>
+  </section>
+  )
 }
 
 export default Wrapper;

@@ -1,4 +1,4 @@
-button {
+.button {
   border: none;
   background-color: rgb(80, 60, 209);
   font-size: 1.5rem;
@@ -11,6 +11,7 @@ button {
 
 button:hover {
   background-color: rgb(61, 43, 184);
+  transition: background-color 0.3s ease;
 }
 
 .equals {

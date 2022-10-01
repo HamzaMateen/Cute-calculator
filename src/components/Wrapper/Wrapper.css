@@ -1,6 +1,7 @@
 .wrapper {
-  width: 340px;
-  height: 75vh;
+  margin: 1rem auto 0 auto;
+  width: clamp( 150px, 320px, 340px );
+  height: clamp( 360px, 75vh, 480px);
   padding: 10px;
   border-radius: 10px;
   background-color: bisque;
